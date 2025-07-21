@@ -1,4 +1,4 @@
-# 🌱 Plastic
+# 🌱 PEPIC by DataX Lab
 
 **Plastic-hydrolytic enzyme classification using explainable deep learning**
 
