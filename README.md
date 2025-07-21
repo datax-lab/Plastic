@@ -8,7 +8,7 @@
 
 ## 🧬 Overview
 
-**Plastic** is a deep learning framework for the classification and interpretation of plastic-hydrolyzing enzymes (PHEs). It combines a curated dataset of enzymatic sequences with a neural model that not only predicts degradative capabilities but also highlights biologically relevant sequence features through saliency-based explainability.
+**Plastic** is a deep learning framework for the classification and interpretation of plastic-hydrolyzing enzymes. It consists of a neural model that not only predicts degradative capabilities but also highlights biologically relevant sequence features through saliency-based explainability.
 
 This work supports efforts in sustainable biotechnology by enabling the identification and mechanistic analysis of novel enzymes involved in plastic degradation.
 
