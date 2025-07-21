@@ -17,7 +17,7 @@ This work supports efforts in sustainable biotechnology by enabling the identifi
 ## 🧠 Key Contributions
 
 - **Curated Dataset**: A high-quality benchmark set including validated plastic-degrading enzymes and evolutionarily similar non-degraders.
-- **Deep Classifier**: A neural network trained to distinguish degradative from non-degradative enzymes with high performance.
+- **Deep Classifier**: A convolutional neural network trained to identify plastic-degrading enzymes with high performance.
 - **Explainability Module**: Attribution maps identify key amino acid residues contributing to enzymatic function.
 - **Biological Validation**: Computational predictions are supported by literature-reported motifs and experimentally verified cases.
 
