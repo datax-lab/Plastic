@@ -110,7 +110,7 @@ class Model(pl.LightningModule):
         
         self.dense1 = nn.Linear(128*3, 512)
         self.dense2 = nn.Linear(512, 512)
-        self.dense3 = nn.Linear(512, 11)
+        self.dense3 = nn.Linear(512, 9)
             
         self.micro_aucpr = [0, 0]
         self.macro_aucpr = [0, 0]
