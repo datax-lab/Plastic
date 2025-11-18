@@ -30,7 +30,7 @@ import random
 import argparse
 import copy
 
-encodings = {'Miyazawa_energies': 20}
+encodings = {'one_hot': 21}
 
 
 class CustomDataset(Dataset):
@@ -159,7 +159,7 @@ class Model(pl.LightningModule):
         pred = torch.sigmoid(y_hat)
         return pred, y
 
-encoding = 'Miyazawa_energies'
+encoding = 'one_hot'
 dimension = 21
 
 data_module = ECDataModule(16, [0, 1, 2, 3, 4, 5, 6, 7], [8], [9], encoding, experiment)
