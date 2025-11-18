@@ -44,7 +44,7 @@ class Model(pl.LightningModule):
         
         self.dense1 = nn.Linear(128*3, 512)
         self.dense2 = nn.Linear(512, 512)
-        self.dense3 = nn.Linear(512, 11)
+        self.dense3 = nn.Linear(512, 9)
         
         self.lr = lr
         
